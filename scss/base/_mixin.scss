@@ -1,0 +1,10 @@
+@mixin zero {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin icons {
+    width: 20px;
+    height: auto;
+    margin: 7px;
+}

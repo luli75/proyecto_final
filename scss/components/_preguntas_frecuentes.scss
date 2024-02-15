@@ -1,0 +1,74 @@
+//import variables 
+@import "../base/variables";
+
+//import listas
+@import "../base/listas";
+
+//import maps
+@import "../base/maps";
+
+//import mixin
+@import "../base/mixin";
+
+//import extend
+@import "../base/extend";
+
+//estilos FAQ.html
+.FAQ {
+    padding-top: 100px;
+    width: 78%;
+    margin: auto;
+    margin-left: 5rem;
+
+    h1 {
+        padding-bottom: 20px;
+    }
+
+    h2 {
+        padding-top: 20px;
+        line-height: 35px;
+        font-size: 22px;
+    }
+    
+    p {
+        padding-top: 8px;
+        line-height: 25px;
+        padding-left: 10px;
+    }
+    
+    div {
+        padding-left: 10px;
+    }
+
+    /* accordion BT */
+    #accordionFlushExample {
+        line-height: 35px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+    }
+
+    .accordion-button {
+        font-weight: 600;
+    }
+
+    .accordion-body {
+        margin-left: 10px;
+    }
+    
+//media queries
+    @media screen and (max-width:767px) {
+        margin-left: 2.5rem;
+        height: auto;
+
+        .accordion-button {
+            line-height: 1.5rem;
+            padding-left: 0.2rem;
+        }
+    
+        .accordion-body {
+            line-height: 1.5rem;
+        }
+    }
+}
+
+

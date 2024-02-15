@@ -1,0 +1,42 @@
+//import variables 
+@import "../base/variables";
+
+//estilos footer
+footer {
+        background-color: lightgrey;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        justify-content: space-between;
+        text-align: center;
+
+    .footer_icons img {
+        width: 20px;
+        height: auto;
+        display: inline-block;
+        margin: 7px;
+    }
+
+    .footer_pages a, .footer_pages p {
+        color: $color_grey;
+        display: inline-block;
+    }
+
+    .footer_pages {
+        padding-bottom: 5px;
+    }
+
+    .footer_icons {
+        padding-bottom: 5px;
+    }
+    
+    .footer_icons img {
+        width: 25px; 
+        height: auto; 
+    }
+    
+    .footer_legal {
+        color: $color_grey;
+    }
+}

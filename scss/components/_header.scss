@@ -1,0 +1,59 @@
+//import variables 
+@import "../base/variables";
+
+//import mixin
+@import "../base/mixin";
+
+//estilos del header
+header {
+    background-color: whitesmoke;
+    height: 58px;
+    z-index: 100;
+    width: 100%;
+    position: fixed;
+
+/* NAVBAR con BT */
+    .navbar-nav .nav-item .active {
+        color: $color_nuan;
+        font-weight: bold;
+    }
+
+    .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+        color: $color_nuan;
+    }
+
+    .navbar-nav .nav-item .dropdown-menu .dropdown-item:active {
+        background-color: whitesmoke;
+        text-decoration: underline;
+    }
+
+    .navbar-nav .nav-item {
+        background-color: whitesmoke;
+    }
+
+    .navbar-nav .nav-item a:hover {
+        font-weight: bold;
+    }
+
+    .logo_header img {
+        width: 100px;
+        height: auto;
+        display: inline-block;
+    }
+
+    .menu_icons {
+        background-color: whitesmoke;
+    }
+
+    .menu_icons img {
+        width: 20px;
+        height: auto;
+        display: inline-block;
+        margin: 7px;
+    }
+
+    .img_main_a img {
+        width: 500px;
+        height: auto;
+    }
+}
