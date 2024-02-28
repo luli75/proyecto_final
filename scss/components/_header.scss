@@ -4,6 +4,9 @@
 //import mixin
 @import "../base/mixin";
 
+//import extend
+@import "../base/extend";
+
 //estilos del header
 header {
     background-color: whitesmoke;
@@ -36,8 +39,9 @@ header {
     }
 
     .logo_header img {
-        width: 100px;
+        width: 120px;
         height: auto;
+        padding-left: 30px;
         display: inline-block;
     }
 
@@ -52,8 +56,7 @@ header {
         margin: 7px;
     }
 
-    .img_main_a img {
-        width: 500px;
-        height: auto;
+    .menu_icons img:hover {
+        cursor: pointer;
     }
 }
