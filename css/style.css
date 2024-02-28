@@ -33,8 +33,9 @@ header .navbar-nav .nav-item a:hover {
   font-weight: bold;
 }
 header .logo_header img {
-  width: 100px;
+  width: 120px;
   height: auto;
+  padding-left: 30px;
   display: inline-block;
 }
 header .menu_icons {
@@ -46,9 +47,8 @@ header .menu_icons img {
   display: inline-block;
   margin: 7px;
 }
-header .img_main_a img {
-  width: 500px;
-  height: auto;
+header .menu_icons img:hover {
+  cursor: pointer;
 }
 
 /*estilos footer*/
@@ -86,9 +86,9 @@ footer .footer_legal {
 }
 
 /*estilos index*/
-main {
-  /* carousel BT */
-}
+
+/* carousel BT */
+
 main .img_main_3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -111,6 +111,7 @@ main .img_main_3 div img {
 main .img_main_3 img:hover {
   transform: scale(1.05);
   transition: 0.5s ease;
+  cursor: pointer;
 }
 main #carouselExampleIndicators {
   padding-top: 56px;
@@ -274,18 +275,6 @@ main .index_text {
     margin-top: 30px;
   }
 }
-@media screen and (max-width: 1337px) {
-  .sobre_nosotros .sn_3a {
-    order: 5;
-    padding-top: 20px;
-  }
-  .sobre_nosotros .sn_3 {
-    margin-left: 70px;
-  }
-  .sobre_nosotros .sn_2b {
-    margin-top: 30px;
-  }
-}
 .sobre_nosotros .sn_3 {
   margin-top: 70px;
   margin-bottom: 50px;
@@ -305,13 +294,14 @@ main .index_text {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-right: 1.5rem;
 }
 
 /*estilos contacto*/
 .contacto {
   padding-top: 3rem;
-  margin-left: 6rem;
-  margin-right: 6rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -326,20 +316,18 @@ main .index_text {
   padding-top: 2rem;
 }
 @media screen and (max-width: 767px) {
-  .contacto .contacto {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    margin-bottom: 0.5rem;
-  }
   .contacto .map iframe {
     width: auto;
     height: 200px;
   }
   .contacto .contacto_1 {
     margin-bottom: 0px;
+    margin-left: -4rem;
   }
   .contacto .contacto_2 {
     padding-top: 0rem;
+    margin-left: -4rem;
+    margin-right: -2rem;
   }
 }
 .contacto .datos_contacto h2 {
@@ -349,9 +337,6 @@ main .index_text {
 .contacto .datos_contacto address {
   margin-top: 5px;
   padding-left: 20px;
-}
-.contacto .map {
-  margin-top: 40px;
 }
 .contacto .form {
   line-height: 30px;
@@ -438,11 +423,11 @@ main .index_text {
 .productos .prod_1 {
   text-align: center;
   padding: 100px;
-  background-image: url(../img/sn_banner.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 20%;
   background-color: #F8E5D7;
+  background-image: url(../img/sn_banner.png);
 }
 .productos .ordenar {
   width: auto;
@@ -462,11 +447,11 @@ main .index_text {
   margin-top: 20px;
   position: relative;
   padding: 10px;
-  padding-right: 0px;
   border: 2px solid rgb(63, 63, 63);
   border-width: 2px;
   outline: none;
   cursor: pointer;
+  padding-right: 0px;
 }
 .productos .filtro:focus {
   background-color: rgb(214, 214, 214);
@@ -499,8 +484,9 @@ main .index_text {
   margin-right: 3rem;
 }
 .productos .prod_3 img:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition: 0.5s ease;
+  cursor: pointer;
 }
 .productos .img_prod_1 img, .productos .img_prod_2 img, .productos .img_prod_3 img, .productos .img_prod_4 img {
   width: auto;
@@ -508,7 +494,7 @@ main .index_text {
   margin-bottom: 40px;
   margin-left: 40px;
 }
-.productos .img_prod_1_first {
+.productos .img_prod_1 img {
   margin-top: 50px;
 }
 .productos .pagination {
