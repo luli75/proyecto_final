@@ -1,17 +1,8 @@
 //import variables 
 @import "../base/variables";
 
-//import listas
-@import "../base/listas";
-
-//import maps
-@import "../base/maps";
-
 //import mixin
 @import "../base/mixin";
-
-//import extend
-@import "../base/extend";
 
 //estilos de index.html
 main {
@@ -37,8 +28,7 @@ main {
     }
 
     .img_main_3 img:hover {
-        transform: scale(1.05);
-        transition: .5s ease;
+    @include img_hover
     }
 
     /* carousel BT */
