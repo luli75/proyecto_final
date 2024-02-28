@@ -1,17 +1,8 @@
 //import variables 
 @import "../base/variables";
 
-//import listas
-@import "../base/listas";
-
-//import maps
-@import "../base/maps";
-
 //import mixin
 @import "../base/mixin";
-
-//import extend
-@import "../base/extend";
 
 //estilos de nosotros.html
 .sobre_nosotros {
@@ -118,21 +109,6 @@
         }
     }
 
-    @media screen and (max-width:1337px) {
-        .sn_3a {
-            order: 5;
-            padding-top: 20px;
-        }
-        
-        .sn_3 {
-            margin-left: 70px;
-        }
-        
-        .sn_2b {
-            margin-top: 30px;
-        }
-    }
-
     .sn_3 {
         margin-top: 70px;
         margin-bottom: 50px;
@@ -154,5 +130,6 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-right: 1.5rem;
     }
 }
