@@ -8,3 +8,29 @@
     height: auto;
     margin: 7px;
 }
+
+@mixin img_hover {
+    transform: scale(1.05);
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+@mixin menu_select {
+    width: auto;
+    margin-top: 20px;
+    position: relative;
+    padding: 10px;
+    border: 2px solid $color_grey;
+    border-width: 2px;
+    outline: none;
+    cursor: pointer;
+}
+
+@mixin banner {
+    text-align: center;
+    padding: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: 20%;
+    background-color: $color_banner;
+}
