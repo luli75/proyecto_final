@@ -121,13 +121,12 @@
 
     @media screen and (max-width:1280px) and (min-width: 1025px) {
         .sn_3b p, .sn_3b h2 {
-            padding-right: 13px;
+            padding-right: 13px;;
         }
 
         .sn_3b {
-            margin-right: -3rem;
-            width: 45%;
-        }
+            width: 50%;
+        }   
     }
 
     .sn_3 {
@@ -151,6 +150,9 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-right: 6rem;
+    }
+
+    .sn_3b p, .sn_3b h2 {
+        margin-right: 3rem;
     }
 }
