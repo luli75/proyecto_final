@@ -50,6 +50,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-left: 1rem;
     }
     
     .sn_2b {
@@ -63,19 +64,16 @@
     
     .sn_2 p, .sn_3 p {
         line-height: 20px;
-        padding-left: 30px;
     }
 
     @media screen and (max-width:767px) {
-        .sn_2, .sn_3 {
-            margin-left: 20px;
-        }
-        
         .sn_2 {
+            margin-left: 20px;
             margin-top: 30px;
         }
 
-        .sn_2a p, .sn_3b p {
+        .sn_2a {
+            margin-left: 10px;
             margin-right: 20px;
         }
 
@@ -87,6 +85,18 @@
 
         .sn_2 h2, .sn_3 h2 {
             padding-bottom: 10px;
+        }
+
+        .sn_3 {
+            width: 75%;
+        }
+
+        .sn_3b {
+            margin-left: -40px;
+        }
+
+        .sn_3b p {
+            width: 19.5rem;
         }
 
         .sn_3a img {
@@ -106,6 +116,17 @@
     
         .sn_2b {
             margin-top: 30px;
+        }
+    }
+
+    @media screen and (max-width:1280px) and (min-width: 1025px) {
+        .sn_3b p, .sn_3b h2 {
+            padding-right: 13px;
+        }
+
+        .sn_3b {
+            margin-right: -3rem;
+            width: 45%;
         }
     }
 
@@ -130,6 +151,6 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-right: 1.5rem;
+        margin-right: 6rem;
     }
 }
