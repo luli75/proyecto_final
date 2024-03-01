@@ -293,8 +293,7 @@ footer .footer_legal {
     padding-right: 13px;
   }
   .sobre_nosotros .sn_3b {
-    margin-right: -3rem;
-    width: 45%;
+    width: 50%;
   }
 }
 .sobre_nosotros .sn_3 {
@@ -316,7 +315,9 @@ footer .footer_legal {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-right: 6rem;
+}
+.sobre_nosotros .sn_3b p, .sobre_nosotros .sn_3b h2 {
+  margin-right: 3rem;
 }
 
 /*estilos contacto*/
